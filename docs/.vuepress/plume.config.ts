@@ -18,7 +18,7 @@ import notes from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: 'https://oss.ajohn.top/blog/xi-favicon.png',
 
   appearance: true,  // 配置 深色模式
 

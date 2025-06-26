@@ -30,7 +30,10 @@ export default defineUserConfig({
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     hostname: 'https://wedding.ajohn.top',
-
+    footer: { 
+      message: "<span style='display: inline-flex; align-items: center; gap: 10px;'><a href='https://beian.miit.gov.cn/'>鄂ICP备2025095120号-1</a> <a href='https://beian.mps.gov.cn/#/query/webSearch?code=42011102005705' target='_blank' style='display: inline-flex; align-items: center;'><img src='https://oss.ajohn.top/blog/beian.png' style='height: 20px; margin-right: 5px;' />鄂公网安备42011102005705号</a></span>", 
+      copyright: "Copyright © 2025 AJohn"
+    },
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
     // docsDir: 'docs',
