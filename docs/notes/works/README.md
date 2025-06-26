@@ -25,11 +25,20 @@ permalink: /works/
   'https://oss.ajohn.top/blog/works/2025-05-01/6.webp',
   ]"
   mode="carousel"
-  :height="400"
   :slides-per-view="3"
   :space-between="20"
   :speed="5500"
 />
+
+<Swiper :items="[
+  'https://oss.ajohn.top/blog/works/2025-05-01/1.webp',
+  'https://oss.ajohn.top/blog/works/2025-05-25/6.webp',
+  'https://oss.ajohn.top/blog/works/2025-05-01/2.webp',
+  'https://oss.ajohn.top/blog/works/2025-05-03/2.webp',
+  'https://oss.ajohn.top/blog/works/2025-05-25/11.webp',
+  'https://oss.ajohn.top/blog/works/2025-05-03/9.webp',
+  ]" 
+  effect="cards" />
 
 ## 2025 往期作品：
 
