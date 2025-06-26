@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      swiper:
+        specifier: ^11.2.8
+        version: 11.2.8
     devDependencies:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.23
@@ -28,7 +32,7 @@ importers:
         version: 2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@24.0.4)(sass-embedded@1.89.2)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
       vuepress-theme-plume:
         specifier: 1.0.0-rc.154
-        version: 1.0.0-rc.154(@algolia/client-search@5.29.0)(markdown-it@14.1.0)(sass-embedded@1.89.2)(search-insights@2.17.3)(typescript@5.8.3)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@24.0.4)(sass-embedded@1.89.2)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3)))
+        version: 1.0.0-rc.154(@algolia/client-search@5.29.0)(markdown-it@14.1.0)(sass-embedded@1.89.2)(search-insights@2.17.3)(swiper@11.2.8)(typescript@5.8.3)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@24.0.4)(sass-embedded@1.89.2)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3)))
 
 packages:
 
@@ -2013,6 +2017,10 @@ packages:
   supports-color@8.1.1:
     resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
     engines: {node: '>=10'}
+
+  swiper@11.2.8:
+    resolution: {integrity: sha512-S5FVf6zWynPWooi7pJ7lZhSUe2snTzqLuUzbd5h5PHUOhzgvW0bLKBd2wv0ixn6/5o9vwc/IkQT74CRcLJQzeg==}
+    engines: {node: '>= 4.7.0'}
 
   sync-child-process@1.0.2:
     resolution: {integrity: sha512-8lD+t2KrrScJ/7KXCSyfhT3/hRq78rC0wBFqNJXv3mZyn6hW2ypM05JmlSvtqRbeq6jqA94oHbxAr2vYsJ8vDA==}
@@ -4395,6 +4403,8 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
+  swiper@11.2.8: {}
+
   sync-child-process@1.0.2:
     dependencies:
       sync-message-port: 1.1.3
@@ -4587,7 +4597,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  vuepress-theme-plume@1.0.0-rc.154(@algolia/client-search@5.29.0)(markdown-it@14.1.0)(sass-embedded@1.89.2)(search-insights@2.17.3)(typescript@5.8.3)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@24.0.4)(sass-embedded@1.89.2)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))):
+  vuepress-theme-plume@1.0.0-rc.154(@algolia/client-search@5.29.0)(markdown-it@14.1.0)(sass-embedded@1.89.2)(search-insights@2.17.3)(swiper@11.2.8)(typescript@5.8.3)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@24.0.4)(sass-embedded@1.89.2)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))):
     dependencies:
       '@iconify/utils': 2.3.0
       '@iconify/vue': 5.0.0(vue@3.5.17(typescript@5.8.3))
@@ -4629,6 +4639,8 @@ snapshots:
       vuepress: 2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@24.0.4)(sass-embedded@1.89.2)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
       vuepress-plugin-md-power: 1.0.0-rc.154(esbuild@0.25.5)(markdown-it@14.1.0)(sass-embedded@1.89.2)(typescript@5.8.3)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@24.0.4)(sass-embedded@1.89.2)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3)))
       vuepress-plugin-replace-assets: 1.0.0-rc.154(typescript@5.8.3)(vuepress@2.0.0-rc.23(@vuepress/bundler-vite@2.0.0-rc.23(@types/node@24.0.4)(sass-embedded@1.89.2)(typescript@5.8.3))(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3)))
+    optionalDependencies:
+      swiper: 11.2.8
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/react'
